@@ -16,3 +16,19 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.value {
+  display: flex;
+  font-size: 32px;
+  justify-content: center;
+  color: #071FA1;
+}
+.label{
+  font-size: 12px;
+}
+.timer{
+  display: flex;
+}
+.field:not(last-child){
+  margin-right: 10px;
+}
