@@ -39,6 +39,10 @@ function changeDay (){
 button.addEventListener('click', timerPlay);
 
 function timerPlay () {
+  button.disabled = true;
+  input.disabled = true;
+  console.dir(button)
+  console.dir(input)
   const timerId = setInterval(()=>{
         const selectedDay = input._flatpickr.selectedDates[0];
         const currentDay = new Date();
